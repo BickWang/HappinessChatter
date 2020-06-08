@@ -1,0 +1,154 @@
+Country,Country2,Region,Happiness,GDP,Social_support,Healthy_expectancy,Freedom,Generosity,Prevent_Corruption
+afghanistan,afghanistan,south asia,low,low,low,low,low,low,low
+albania,albania,central and eastern europe,low,medium,low,high,medium,medium,low
+algeria,algeria,middle east and north africa,low,medium,medium,medium,low,low,high
+argentina,argentina,latin america and caribbean,medium,medium,high,high,medium,low,low
+armenia,armenia,commonwealth of independent states,low,medium,low,medium,low,low,medium
+australia,australia,north america,high,high,high,high,high,high,high
+austria,austria,western europe,high,high,high,high,high,high,high
+azerbaijan,azerbaijan,commonwealth of independent states,medium,medium,medium,medium,medium,low,high
+bahrain,bahrain,middle east and north africa,high,high,medium,high,high,high,high
+bangladesh,bangladesh,south asia,low,low,low,medium,high,medium,high
+belarus,belarus,commonwealth of independent states,medium,medium,high,medium,low,low,high
+belgium,belgium,western europe,high,high,high,high,medium,medium,high
+benin,benin,sub - saharan africa,medium,low,low,low,low,medium,medium
+bolivia,bolivia,latin america and caribbean,medium,low,medium,medium,high,medium,medium
+bosnia and herzegovina,bosnia and herzegovina,central and eastern europe,medium,medium,medium,medium,low,high,low
+botswana,botswana,sub - saharan africa,low,medium,low,low,medium,low,medium
+brazil,brazil,latin america and caribbean,high,medium,high,medium,medium,low,medium
+bulgaria,bulgaria,central and eastern europe,medium,medium,high,medium,medium,low,low
+burkina faso,burkina faso,sub - saharan africa,low,low,low,low,low,medium,medium
+burundi,burundi,sub - saharan africa,low,low,low,low,low,medium,high
+cambodia,cambodia,southeast asia,low,low,low,low,high,high,medium
+cameroon,cameroon,sub - saharan africa,medium,low,low,low,medium,medium,low
+canada,canada,north america,high,high,high,high,high,high,high
+central african republic,central african republic,sub - saharan africa,low,low,low,low,low,high,low
+chad,chad,sub - saharan africa,low,low,low,low,low,medium,medium
+chile,chile,latin america and caribbean,high,medium,medium,high,medium,medium,low
+china,china,east asia,medium,medium,medium,high,high,low,medium
+colombia,colombia,latin america and caribbean,high,medium,medium,medium,medium,low,low
+comoros,comoros,sub - saharan africa,low,low,low,low,low,high,medium
+congo (brazzaville),congo (brazzaville),sub - saharan africa,medium,low,low,low,low,low,medium
+congo (kinshasa),congo (kinshasa),sub - saharan africa,low,low,low,low,low,high,medium
+costa rica,costa rica,latin america and caribbean,high,medium,high,high,high,low,medium
+croatia,croatia,central and eastern europe,medium,medium,medium,high,low,low,low
+cyprus,cyprus,western europe,high,high,medium,high,medium,medium,low
+czech republic,czech republic,central and eastern europe,high,high,high,high,medium,low,low
+denmark,denmark,western europe,high,high,high,high,high,high,high
+dominican republic,dominican republic,latin america and caribbean,medium,medium,medium,medium,high,low,medium
+ecuador,ecuador,latin america and caribbean,medium,medium,medium,high,high,low,medium
+egypt,egypt,middle east and north africa,low,medium,low,low,low,low,medium
+el salvador,el salvador,latin america and caribbean,high,low,medium,medium,medium,low,medium
+estonia,estonia,central and eastern europe,medium,high,high,high,high,low,high
+ethiopia,ethiopia,sub - saharan africa,low,low,low,low,low,medium,medium
+finland,finland,western europe,high,high,high,high,high,medium,high
+france,france,western europe,high,high,high,high,medium,low,high
+gabon,gabon,sub - saharan africa,low,medium,low,low,low,low,low
+gambia,gambia,sub - saharan africa,low,low,low,low,low,high,high
+georgia,georgia,commonwealth of independent states,low,medium,low,medium,medium,low,high
+germany,germany,western europe,high,high,high,high,high,high,high
+ghana,ghana,sub - saharan africa,medium,low,low,low,medium,high,low
+greece,greece,western europe,medium,high,medium,high,low,low,low
+guatemala,guatemala,latin america and caribbean,high,low,medium,medium,high,medium,medium
+guinea,guinea,sub - saharan africa,low,low,low,low,low,high,medium
+haiti,haiti,latin america and caribbean,low,low,low,low,low,high,high
+honduras,honduras,latin america and caribbean,medium,low,medium,medium,high,high,medium
+hong kong s.a.r. of china,hong kong s.a.r. of china,east asia,medium,high,medium,high,medium,high,high
+hungary,hungary,central and eastern europe,medium,high,high,medium,low,low,low
+iceland,iceland,western europe,high,high,high,high,high,high,high
+india,india,south asia,low,low,low,low,high,high,medium
+indonesia,indonesia,southeast asia,medium,medium,medium,low,high,high,low
+iran,iran,middle east and north africa,low,medium,low,medium,low,high,high
+iraq,iraq,middle east and north africa,low,medium,low,low,low,medium,medium
+ireland,ireland,western europe,high,high,high,high,high,high,high
+israel,israel,middle east and north africa,high,high,high,high,medium,high,medium
+italy,italy,western europe,high,high,medium,high,low,medium,low
+ivory coast,ivory coast,sub - saharan africa,medium,low,low,low,low,medium,medium
+jamaica,jamaica,latin america and caribbean,medium,medium,high,medium,medium,low,low
+japan,japan,east asia,medium,high,medium,high,medium,low,high
+jordan,jordan,middle east and north africa,low,medium,medium,medium,medium,low,high
+kazakhstan,kazakhstan,commonwealth of independent states,medium,high,high,medium,medium,medium,medium
+kenya,kenya,sub - saharan africa,low,low,low,low,medium,high,low
+kosovo,kosovo,central and eastern europe,high,medium,medium,medium,high,high,low
+kuwait,kuwait,middle east and north africa,high,high,medium,medium,high,low,medium
+kyrgyzstan,kyrgyzstan,commonwealth of independent states,medium,low,medium,medium,high,high,low
+laos,laos,southeast asia,low,low,low,low,high,high,high
+latvia,latvia,central and eastern europe,medium,high,high,medium,low,low,medium
+lebanon,lebanon,middle east and north africa,low,medium,medium,medium,low,medium,low
+lesotho,lesotho,sub - saharan africa,low,low,low,low,low,low,low
+liberia,liberia,sub - saharan africa,low,low,low,low,low,medium,low
+libya,libya,middle east and north africa,medium,medium,medium,low,medium,medium,high
+lithuania,lithuania,central and eastern europe,high,high,high,medium,medium,low,medium
+luxembourg,luxembourg,western europe,high,high,high,high,high,medium,high
+macedonia,macedonia,central and eastern europe,medium,medium,medium,medium,low,medium,low
+madagascar,madagascar,sub - saharan africa,low,low,low,low,low,medium,medium
+malawi,malawi,sub - saharan africa,low,low,low,low,medium,medium,high
+malaysia,malaysia,southeast asia,medium,high,medium,medium,high,high,low
+maldives,maldives,south asia,medium,medium,high,high,medium,medium,medium
+mali,mali,sub - saharan africa,low,low,low,low,low,medium,low
+malta,malta,western europe,high,high,high,high,high,high,high
+mauritania,mauritania,sub - saharan africa,low,low,low,low,low,low,medium
+mauritius,mauritius,sub - saharan africa,high,medium,high,medium,high,medium,medium
+mexico,mexico,latin america and caribbean,high,medium,medium,high,medium,low,medium
+moldova,moldova,commonwealth of independent states,medium,low,medium,medium,low,medium,low
+mongolia,mongolia,east asia,medium,medium,high,medium,low,high,low
+montenegro,montenegro,central and eastern europe,medium,medium,medium,high,low,medium,medium
+morocco,morocco,middle east and north africa,medium,medium,low,medium,medium,low,medium
+mozambique,mozambique,sub - saharan africa,low,low,low,low,high,medium,high
+myanmar,myanmar,southeast asia,low,low,low,low,high,high,high
+namibia,namibia,sub - saharan africa,low,medium,medium,low,medium,low,low
+nepal,nepal,south asia,medium,low,low,medium,medium,high,high
+netherlands,netherlands,western europe,high,high,high,high,high,high,high
+new zealand,new zealand,north america,high,high,high,high,high,high,high
+nicaragua,nicaragua,latin america and caribbean,high,low,medium,medium,high,medium,high
+niger,niger,sub - saharan africa,low,low,low,low,medium,medium,high
+nigeria,nigeria,sub - saharan africa,low,low,low,low,medium,medium,low
+north cyprus,north cyprus,western europe,medium,high,medium,high,medium,medium,high
+norway,norway,western europe,high,high,high,high,high,high,high
+pakistan,pakistan,south asia,medium,low,low,low,low,high,medium
+palestinian territories,palestinian territories,middle east and north africa,low,low,medium,low,low,low,medium
+panama,panama,latin america and caribbean,high,medium,high,high,high,low,low
+paraguay,paraguay,latin america and caribbean,medium,medium,high,medium,high,medium,low
+peru,peru,latin america and caribbean,medium,medium,medium,medium,medium,low,low
+philippines,philippines,southeast asia,medium,medium,medium,low,high,low,high
+poland,poland,central and eastern europe,high,high,medium,high,high,low,high
+portugal,portugal,western europe,medium,high,medium,high,high,low,low
+romania,romania,central and eastern europe,high,high,medium,medium,medium,low,low
+russia,russia,commonwealth of independent states,medium,high,high,medium,low,low,low
+rwanda,rwanda,sub - saharan africa,low,low,low,low,high,high,high
+saudi arabia,saudi arabia,middle east and north africa,high,high,medium,medium,medium,low,high
+senegal,senegal,sub - saharan africa,low,low,low,low,low,medium,medium
+serbia,serbia,central and eastern europe,medium,medium,medium,medium,low,medium,low
+sierra leone,sierra leone,sub - saharan africa,low,low,low,low,low,high,low
+singapore,singapore,southeast asia,high,high,high,high,high,medium,high
+slovakia,slovakia,central and eastern europe,high,high,high,high,medium,low,low
+slovenia,slovenia,central and eastern europe,high,high,high,high,high,medium,medium
+south africa,south africa,sub - saharan africa,low,medium,medium,low,medium,low,low
+south korea,south korea,east asia,medium,high,medium,high,low,medium,medium
+south sudan,south sudan,sub - saharan africa,low,low,low,low,low,medium,medium
+spain,spain,western europe,high,high,high,high,medium,medium,medium
+sri lanka,sri lanka,south asia,low,medium,medium,medium,medium,high,low
+swaziland,swaziland,sub - saharan africa,low,medium,low,low,low,low,high
+sweden,sweden,western europe,high,high,high,high,high,high,high
+switzerland,switzerland,western europe,high,high,high,high,high,high,high
+taiwan province of china,taiwan province of china,east asia,high,high,high,high,medium,medium,high
+tajikistan,tajikistan,commonwealth of independent states,medium,low,medium,medium,medium,medium,high
+tanzania,tanzania,sub - saharan africa,low,low,low,low,medium,high,high
+thailand,thailand,southeast asia,medium,medium,high,medium,high,high,low
+togo,togo,sub - saharan africa,low,low,low,low,low,medium,medium
+trinidad and tobago,trinidad and tobago,latin america and caribbean,high,high,high,medium,medium,medium,low
+tunisia,tunisia,middle east and north africa,low,medium,low,medium,low,low,low
+turkey,turkey,middle east and north africa,medium,high,medium,medium,low,low,medium
+turkmenistan,turkmenistan,commonwealth of independent states,medium,medium,high,low,medium,high,low
+uganda,uganda,sub - saharan africa,low,low,low,low,low,high,low
+ukraine,ukraine,commonwealth of independent states,low,medium,medium,medium,low,medium,low
+united arab emirates,united arab emirates,middle east and north africa,high,high,medium,medium,high,high,high
+united kingdom,united kingdom,western europe,high,high,high,high,medium,high,high
+united states,united states,north america,high,high,high,high,medium,high,high
+uruguay,uruguay,latin america and caribbean,high,medium,high,high,high,low,high
+uzbekistan,uzbekistan,commonwealth of independent states,high,low,high,medium,high,high,high
+venezuela,venezuela,latin america and caribbean,medium,medium,high,medium,low,low,low
+vietnam,vietnam,southeast asia,medium,low,medium,medium,high,medium,medium
+yemen,yemen,middle east and north africa,low,low,medium,low,low,low,medium
+zambia,zambia,sub - saharan africa,low,low,low,low,medium,high,medium
+zimbabwe,zimbabwe,sub - saharan africa,low,low,low,low,low,medium,medium

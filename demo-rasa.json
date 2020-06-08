@@ -1,0 +1,1118 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "zipcode",
+        "pattern": "[0-9]{5}"
+      },
+      {
+        "name": "greet",
+        "pattern": "hey[^\\s]*"
+      }
+    ],
+    "entity_synonyms": [
+      {
+        "value": "country",
+        "synonyms": ["countries", "contry", "place", "places"]
+      },
+      {
+        "value": "africa",
+        "synonyms": ["african"]
+      },
+      {
+        "value": "united states",
+        "synonyms": ["the US", "the United States"]
+      },
+      {
+        "value": "united kingdom",
+        "synonyms": ["UK", "United Kingdom"]
+      },
+      {
+        "value": "asia",
+        "synonyms": ["asian"]
+      },
+      {
+        "value": "america",
+        "synonyms": ["american"]
+      },
+      {
+        "value": "happiness",
+        "synonyms": ["happyness", "life quality", "happy", "life qualities"]
+      },
+      {
+        "value": "high",
+        "synonyms": ["good", "ideal", "high in rank", "nice", "strong", "rich", "free", "long"]
+      },
+      {
+        "value": "low",
+        "synonyms": ["bad", "low in rank", "terrible", "notorious", "poor", "weak", "censor", "short", "low life expectancy"]
+      },
+      {
+        "value": "medium",
+        "synonyms": ["so-so", "average", "common"]
+      },
+      {
+        "value": "north america",
+        "synonyms": ["north america and anz"]
+      },
+      {
+        "value": "east",
+        "synonyms": ["eastern"]
+      },
+      {
+        "value": "west",
+        "synonyms": ["western"]
+      },
+      {
+        "value": "north",
+        "synonyms": ["northern"]
+      },
+      {
+        "value": "south",
+        "synonyms": ["southern"]
+      },
+      {
+        "value": "latin america and caribbean",
+        "synonyms": ["latin america", "south america", "caribbean", "latin"]
+      },
+      {
+        "value": "sub - saharan africa",
+        "synonyms": ["south africa"]
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "yes", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yep", 
+        "intent": "affirm", 
+        "entities": []
+      }, 
+      {
+        "text": "yeah", 
+        "intent": "affirm", 
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no, thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "No, thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "nope",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "no thanks",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "that's it",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place to move.",
+        "intent": "country_search",
+        "entities": []
+      },
+      {
+        "text": "I want to travel.",
+        "intent": "country_search",
+        "entities": []
+      },
+      {
+        "text": "I am searching for a destination of visiting.",
+        "intent": "country_search",
+        "entities": []
+      },
+      {
+        "text": "i'm looking for a place in the Western Europe",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 45,
+            "value": "Western Europe",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for a place in the East Asia",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "east asia",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for a place in the Eastern Asia",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "east asia",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for a place in the sub-saharan africa",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 49,
+            "value": "sub - saharan africa",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for a place in the south africa",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 43,
+            "value": "sub - saharan africa",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "i'm looking for a place in the north america",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 31,
+            "end": 44,
+            "value": "north america",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "show me countries with long life expectancy",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 43,
+            "value": "high",
+            "entity": "Healthy_expectancy"
+          }
+        ]
+      },
+      {
+        "text": "show me countries with short life expectancy",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 44,
+            "value": "low",
+            "entity": "Healthy_expectancy"
+          }
+        ]
+      },
+      {
+        "text": "show me countries with poor life expectancy.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 43,
+            "value": "low",
+            "entity": "Healthy_expectancy"
+          }
+        ]
+      },
+      {
+        "text": "show me countries with average life expectancy",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 23,
+            "end": 46,
+            "value": "medium",
+            "entity": "Healthy_expectancy"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with high GDP.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "high",
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with high happiness.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "high",
+            "entity": "Happiness"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a commonwealth of independent states",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 53,
+            "value": "commonwealth of independent states",
+            "entity": "Region"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with medium happiness.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 48,
+            "value": "medium",
+            "entity": "Happiness"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low happiness.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 45,
+            "value": "low",
+            "entity": "Happiness"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with high social support.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 51,
+            "value": "high",
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with medium social support.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 53,
+            "value": "medium",
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with poor freedom.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "low",
+            "entity": "freedom"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low social support.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 50,
+            "value": "low",
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low GDP.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 39,
+            "value": "low",
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low generosity.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "low",
+            "entity": "Generosity"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low freedom.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "low",
+            "entity": "Freedom"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with high freedom.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "high",
+            "entity": "Freedom"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with medium freedom.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "medium",
+            "entity": "Freedom"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with high generosity.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "high",
+            "entity": "Generosity"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low corruption prevention.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 57,
+            "value": "low",
+            "entity": "Prevent_Corruption"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a poor country.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "low",
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a poor country with high social support.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "low",
+            "entity": "GDP"
+          },
+          {
+            "start": 37,
+            "end": 56,
+            "value": "high",
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a poor country with high corruption prevention.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 23,
+            "value": "low",
+            "entity": "GDP"
+          },
+          {
+            "start": 37,
+            "end": 63,
+            "value": "high",
+            "entity": "Prevent_Corruption"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low generosity and high happiness.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "low",
+            "entity": "Generosity"
+          },
+          {
+            "start": 51,
+            "end": 65,
+            "value": "high",
+            "entity": "Happiness"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with low freedom and high happiness.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 43,
+            "value": "low",
+            "entity": "Freedom"
+          },
+          {
+            "start": 48,
+            "end": 62,
+            "value": "high",
+            "entity": "Happiness"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a country with high freedom and medium generosity.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 32,
+            "end": 44,
+            "value": "high",
+            "entity": "freedom"
+          },
+          {
+            "start": 49,
+            "end": 66,
+            "value": "medium",
+            "entity": "Generosity"
+          }
+        ]
+      },
+      {
+        "text": "show me Southern Asian country with average GDP",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 22,
+            "value": "south asia",
+            "entity": "Region"
+          },
+          {
+            "start": 36,
+            "end": 43,
+            "value": "medium",
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "show me East Asia country with low freedom.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 25,
+            "value": "east asia",
+            "entity": "Region"
+          },
+          {
+            "start": 31,
+            "end": 42,
+            "value": "low",
+            "entity": "freedom"
+          }
+        ]
+      },
+      {
+        "text": "show me a terrible happiness place with ideal social support.", 
+        "intent": "country_search", 
+        "entities": [
+          {
+            "start": 10, 
+            "end": 28, 
+            "value": "low", 
+            "entity": "Happiness"
+          }, 
+          {
+            "start": 40, 
+            "end": 60, 
+            "value": "high", 
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "show me commonwealth of independent states with high generosity and low corruption prevention", 
+        "intent": "country_search", 
+        "entities": [
+          {
+            "start": 8, 
+            "end": 42, 
+            "value": "commonwealth of independent states", 
+            "entity": "Region"
+          }, 
+          {
+            "start": 48, 
+            "end": 63, 
+            "value": "high", 
+            "entity": "generosity"
+          }, 
+          {
+            "start": 68, 
+            "end": 93, 
+            "value": "low", 
+            "entity": "Prevent_Corruption"
+          }
+        ]
+      },
+      {
+        "text": "What central and eastern europe countries have high generosity and low corruption prevention?", 
+        "intent": "country_search", 
+        "entities": [
+          {
+            "start": 5, 
+            "end": 31, 
+            "value": "central and eastern europe", 
+            "entity": "Region"
+          }, 
+          {
+            "start": 47, 
+            "end": 62, 
+            "value": "high", 
+            "entity": "generosity"
+          }, 
+          {
+            "start": 67, 
+            "end": 92, 
+            "value": "low", 
+            "entity": "Prevent_Corruption"
+          }
+        ]
+      },
+      {
+        "text": "What north america countries have high happiness and low social support?", 
+        "intent": "country_search", 
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "north america", 
+            "entity": "Region"
+          }, 
+          {
+            "start": 34, 
+            "end": 48, 
+            "value": "high", 
+            "entity": "happiness"
+          }, 
+          {
+            "start": 53, 
+            "end": 71, 
+            "value": "low", 
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "What countries have medium happiness?", 
+        "intent": "country_search", 
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "north america", 
+            "entity": "Region"
+          }, 
+          {
+            "start": 34, 
+            "end": 48, 
+            "value": "high", 
+            "entity": "happiness"
+          }, 
+          {
+            "start": 53, 
+            "end": 71, 
+            "value": "low", 
+            "entity": "Social_support"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a Sub-Saharan Africa country called Chad.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 37,
+            "value": "Sub-Saharan Africa",
+            "entity": "Region"
+          }, 
+          {
+            "start": 53, 
+            "end": 57, 
+            "value": "Chad", 
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "i am looking for a Sub-Saharan African country called Chad.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 19,
+            "end": 38,
+            "value": "Sub-Saharan Africa",
+            "entity": "Region"
+          }, 
+          {
+            "start": 54, 
+            "end": 58, 
+            "value": "Chad", 
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "search for countries",
+        "intent": "country_search",
+        "entities": []
+      },
+      {
+        "text": "anywhere in the Central and Eastern Europe with low corruption prevention.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 16,
+            "end": 42,
+            "value": "Central and Eastern Europe",
+            "entity": "Region"
+          }, 
+          {
+            "start": 58, 
+            "end": 73, 
+            "value": "low", 
+            "entity": "Prevent_Corruption"
+          }
+        ]
+      },
+      {
+        "text": "China",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "China",
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for high freedom countries.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "high",
+            "entity": "Freedom"
+          }
+        ]
+      },
+      {
+        "text": "Low happiness and high freedom.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "low",
+            "entity": "happiness"
+          }, 
+          {
+            "start": 18, 
+            "end": 30, 
+            "value": "high", 
+            "entity": "freedom"
+          }
+        ]
+      },
+      {
+        "text": "Low happiness and medium corruption prevention and medium generosity.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "low",
+            "entity": "happiness"
+          }, 
+          {
+            "start": 18, 
+            "end": 46, 
+            "value": "medium", 
+            "entity": "Prevent_Corruption"
+          }, 
+          {
+            "start": 51, 
+            "end": 68, 
+            "value": "medium", 
+            "entity": "Generosity"
+          }
+        ]
+      },
+      {
+        "text": "I am looking a contry in East Asia with high life qualities.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 25,
+            "end": 34,
+            "value": "East Asia",
+            "entity": "Region"
+          }, 
+          {
+            "start": 40, 
+            "end": 59, 
+            "value": "high", 
+            "entity": "Happiness"
+          }
+        ]
+      },
+      {
+        "text": "I am looking for medium happy country with medium GDP.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 17,
+            "end": 29,
+            "value": "medium",
+            "entity": "Happiness"
+          }, 
+          {
+            "start": 43, 
+            "end": 53, 
+            "value": "medium", 
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "Rich.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "Rich east asia country with medium happiness.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "high",
+            "entity": "GDP"
+          },
+          {
+            "start": 5,
+            "end": 14,
+            "value": "east asia",
+            "entity": "Region"
+          },
+          {
+            "start": 28,
+            "end": 44,
+            "value": "medium",
+            "entity": "happiness"
+          }
+        ]
+      },
+      {
+        "text": "Latin America and Caribbean rich country.",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 27,
+            "value": "Latin America and Caribbean",
+            "entity": "Region"
+          },
+          {
+            "start": 28,
+            "end": 32,
+            "value": "high",
+            "entity": "GDP"
+          }
+        ]
+      },
+      {
+        "text": "Compare united states and sweden",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "united states",
+            "entity": "Country"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "sweden",
+            "entity": "Country2"
+          }
+        ]
+      },
+      {
+        "text": "Compare united kingdom and belarus",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 8,
+            "end": 22,
+            "value": "united kingdom",
+            "entity": "Country"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "belarus",
+            "entity": "Country2"
+          }
+        ]
+      },
+      {
+        "text": "Why Chad has lower happiness than China?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "chad",
+            "entity": "Country"
+          },
+          {
+            "start": 34,
+            "end": 39,
+            "value": "china",
+            "entity": "Country2"
+          }
+        ]
+      },
+      {
+        "text": "Compare China and Canada.",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "China",
+            "entity": "Country"
+          },
+          {
+            "start": 18,
+            "end": 24,
+            "value": "Canada",
+            "entity": "Country2"
+          }
+        ]
+      },
+      {
+        "text": "How is it compared to Canada?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Canada",
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "How is it compared to united states?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 22,
+            "end": 35,
+            "value": "united states",
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "How is it compared to Chad?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Chad",
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "How is it compared to the US?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 22,
+            "end": 28,
+            "value": "united states",
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "Why is US happier than France?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "United States",
+            "entity": "Country"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "France",
+            "entity": "Country2"
+          }
+        ]
+      },
+      {
+        "text": "What is the US like?",
+        "intent": "country_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "united states",
+            "entity": "Country"
+          }
+        ]
+      },
+      {
+        "text": "Why is Chile less happier than Chad?",
+        "intent": "compare",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Chile",
+            "entity": "Country"
+          },
+          {
+            "start": 31,
+            "end": 35,
+            "value": "Chad",
+            "entity": "Country2"
+          }
+        ]
+      }
+    ]
+  }
+}
